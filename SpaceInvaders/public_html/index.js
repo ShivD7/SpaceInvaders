@@ -10,7 +10,7 @@ const scoreEl = document.querySelector("#scoreEl");//get reference to p tag that
 const died = document.querySelector("#end"); //get reference that holds the "game over" text
 const c = canvas.getContext("2d");//allows drawing on canvas
 
-
+alert("Please use A to move character left, D to move character right, and space to shoot")
 //make canvas a fixed size by setting width and height
 canvas.width = 1024;
 canvas.height = 576;
